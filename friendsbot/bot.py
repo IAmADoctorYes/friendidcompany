@@ -34,7 +34,7 @@ async def friendid(ctx, test): ##Gives data depending on FriendID.  Uses ID as '
         await bot.say("```Friend 3 \n Name: Landon \n Date Added: 7/15/2018 \n Age: [Unknown] \n Rank: Top5```")
         print("Command FriendID " + test + " ran successfully.")
     elif test=="4":
-        await bot.say("```Friend 4 \n Name: Hayden \n Date Added: 7/15/2018 \n Age: [Unknown] \n Rank: Top5```")
+        await bot.say("```Friend 4 \n Name: Hayden \n Date Added: 7/15/2018 \n Age: 14 \n SteamID: Julius Caesar Rank: Top5```")
         print("Command FriendID " + test + " ran successfully.")
     elif test=="5":
         await bot.say("```Friend 5 \n Name: Zach \n Date Added: 7/15/2018 \n Age: 15 \n Rank: Top5```")
