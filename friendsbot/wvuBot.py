@@ -5,7 +5,7 @@
 ## - Cameron (Ideas)
 ##Usage is granted to anybody on the WVU Camp Discord server.
 
-version = "v.1.18"
+version = "v.1.19"
 
 import discord
 from discord.ext import commands
@@ -13,14 +13,14 @@ from discord.ext.commands import Bot
 import asyncio
 
 bot = commands.Bot(command_prefix = "|")
-friends = [{'name':'Cameron','Age':'15',Rank:'','SteamID':''},{'name':'Connor','Age':'15',Rank:'','SteamID':''},
-            {'name':'Landon','Age':'14',Rank:'','SteamID':''},{'name':'Hayden','Age':'14',Rank:'','SteamID':''},
-            {'name':'Zach','Age':'15',Rank:'','SteamID':''},{'name':'Jack','Age':'14',Rank:'','SteamID':''},
-            {'name':'Slava','Age':'16',Rank:'','SteamID':''},{'name':'Nicole','Age':'15',Rank:'','SteamID':''},
-            {'name':'Jacob','Age':'15',Rank:'','SteamID':''},{'name':'Na','Age':'Na',Rank:'','SteamID':''},
-            {'name':'Robert','Age':'14',Rank:'','SteamID':''},{'name':'Riggi','Age':'16',Rank:'','SteamID':''},
-            {'name':'Sully','Age':'16',Rank:'','SteamID':''},{'name':'Will','Age':'16',Rank:'','SteamID':''}
-            ,{'name':'Natalija','Age':'17',Rank:'','SteamID':''}]
+friends = [{'name':'Cameron','Age':'15','Rank':'','SteamID':''},{'name':'Connor','Age':'15','Rank':'','SteamID':''},
+            {'name':'Landon','Age':'14','Rank':'','SteamID':''},{'name':'Hayden','Age':'14','Rank':'','SteamID':''},
+            {'name':'Zach','Age':'15','Rank':'','SteamID':''},{'name':'Jack','Age':'14','Rank':'','SteamID':''},
+            {'name':'Slava','Age':'16','Rank':'','SteamID':''},{'name':'Nicole','Age':'15','Rank':'','SteamID':''},
+            {'name':'Jacob','Age':'15','Rank':'','SteamID':''},{'name':'Na','Age':'Na','Rank':'','SteamID':''},
+            {'name':'Robert','Age':'14','Rank':'','SteamID':''},{'name':'Riggi','Age':'16','Rank':'','SteamID':''},
+            {'name':'Sully','Age':'16','Rank':'','SteamID':''},{'name':'Will','Age':'16','Rank':'','SteamID':''}
+            ,{'name':'Natalija','Age':'17','Rank':'','SteamID':''}]
 
 @bot.event
 async def on_ready(): ##Sees when the bot is ready
