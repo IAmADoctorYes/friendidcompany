@@ -5,7 +5,7 @@
 ## - Cameron (Ideas)
 ##Usage is granted to anybody on the WVU Camp Discord server.
 
-version = "v.1.19"
+version = "v.1.20"
 
 import discord
 from discord.ext import commands
@@ -29,7 +29,7 @@ async def on_ready(): ##Sees when the bot is ready
 @bot.command(pass_context = True)
 async def friendid(ctx, id): ##Gives data depending on FriendID.
     try:
-        await bot.say("Friend {} \n Name: {} \n Age: {} \n Rank: {} \n SteamID: {}".format(id,friends[int(id)-1]['name'],friends[int(id)-1]['Age'],friends[int(id)-1]['Rank'],friends[int(id)-1]['SteamID']))
+        await bot.say("```Friend {} \n Name: {} \n Age: {} \n Rank: {} \n SteamID: {}```".format(id,friends[int(id)-1]['name'],friends[int(id)-1]['Age'],friends[int(id)-1]['Rank'],friends[int(id)-1]['SteamID']))
     except:
         print("Hey that's not a valid ID buddy Owo you wanna die?")
 
