@@ -5,7 +5,7 @@
 ## - Cameron (Ideas)
 ##Usage is granted to anybody on the WVU Camp Discord server.
 
-version = "v.1.21"
+version = "v.1.22"
 
 import discord
 from discord.ext import commands
@@ -43,5 +43,6 @@ async def roll(ctx, num, die):
     iterator = 1
     while iterator <= int(num):
          await bot.say(str(random.randint(1, int(die))))
+         iterator = iterator + 1
 
 bot.run("NDY3ODQyNDc1NjQ2Nzc5Mzk0.DiwhQg.HIPFCNROgiRjQyNN9kAC0_W5T14") ##Runs bot (obviously).  Argument may need to change in case the token changes.
