@@ -5,12 +5,13 @@
 ## - Cameron (Ideas)
 ##Usage is granted to anybody on the WVU Camp Discord server.
 
-version = "v.1.20"
+version = "v.1.21"
 
 import discord
 from discord.ext import commands
 from discord.ext.commands import Bot
 import asyncio
+import random
 
 bot = commands.Bot(command_prefix = "|")
 friends = [{'name':'Cameron','Age':'15','Rank':'','SteamID':''},{'name':'Connor','Age':'15','Rank':'','SteamID':''},
@@ -36,5 +37,11 @@ async def friendid(ctx, id): ##Gives data depending on FriendID.
 @bot.command(pass_context = True)
 async def getversion(ctx):
     await bot.say(version)
+
+@bot.command(pass_context = True)
+async def roll(ctx, num, die):
+    iterator = 1
+    while iterator <= int(num):
+         await bot.say(str(random.randint(1, int(die))))
 
 bot.run("NDY3ODQyNDc1NjQ2Nzc5Mzk0.DiwhQg.HIPFCNROgiRjQyNN9kAC0_W5T14") ##Runs bot (obviously).  Argument may need to change in case the token changes.
