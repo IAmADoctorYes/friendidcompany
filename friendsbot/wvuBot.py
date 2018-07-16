@@ -46,7 +46,7 @@ async def roll(ctx, num, die):
          iterator = iterator + 1
 
 @bot.command(pass_context = True)
-async def b(msg):
+async def b(ctx, msg):
     str=''
     arr = msg.split()
     for word in arr:
@@ -55,6 +55,6 @@ async def b(msg):
                 str+=letter
             else:
                 str += ':regional_indicator_{}: '.format(letter.lower())
-    Bify(str[2::])
+    await bot.say(str)
 
 bot.run("NDY3ODQyNDc1NjQ2Nzc5Mzk0.DiwhQg.HIPFCNROgiRjQyNN9kAC0_W5T14") ##Runs bot (obviously).  Argument may need to change in case the token changes.
