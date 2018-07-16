@@ -5,7 +5,7 @@
 ## - Cameron (Ideas)
 ##Usage is granted to anybody on the WVU Camp Discord server.
 
-version = "v.1.18"
+version = "v:1.18"
 
 import discord
 from discord.ext import commands
