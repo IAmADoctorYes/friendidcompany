@@ -29,7 +29,7 @@ async def on_ready(): ##Sees when the bot is ready
 @bot.command(pass_context = True)
 async def friendid(ctx, id): ##Gives data depending on FriendID.
     try:
-        await bot.say("Friend {} \n Name: {} \n Age: {} \n Rank: {} \n SteamID: {}".format(id,friends[int(id).'name'],friends[int(id).'Age'],friends[int(id).'Rank'],friends[int(id).'SteamID']))
+        await bot.say("Friend {} \n Name: {} \n Age: {} \n Rank: {} \n SteamID: {}".format(id,friends[int(id)-1]['name'],friends[int(id)-1]['Age'],friends[int(id)-1]['Rank'],friends[int(id)-1]['SteamID']))
     except:
         print("Hey that's not a valid ID buddy Owo you wanna die?")
 
