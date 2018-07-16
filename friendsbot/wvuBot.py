@@ -17,7 +17,7 @@ friends = [{'name':'Cameron','Age':'15',Rank:'','SteamID':''},{'name':'Connor','
             {'name':'Landon','Age':'14',Rank:'','SteamID':''},{'name':'Hayden','Age':'14',Rank:'','SteamID':''},
             {'name':'Zach','Age':'15',Rank:'','SteamID':''},{'name':'Jack','Age':'14',Rank:'','SteamID':''},
             {'name':'Slava','Age':'16',Rank:'','SteamID':''},{'name':'Nicole','Age':'15',Rank:'','SteamID':''},
-            {'name':'Jacob','Age':'15',Rank:'','SteamID':''},{'name':'Na','Age':'Na',Rank:'','SteamID':''},
+            {'name':'Jacob','Age':'15',Rank:'','SteamID':''},{'name':'Eli','Age':'16',Rank:'','SteamID':''},
             {'name':'Robert','Age':'14',Rank:'','SteamID':''},{'name':'Riggi','Age':'16',Rank:'','SteamID':''},
             {'name':'Sully','Age':'16',Rank:'','SteamID':''},{'name':'Will','Age':'16',Rank:'','SteamID':''}
             ,{'name':'Natalija','Age':'17',Rank:'','SteamID':''}]
